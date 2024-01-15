@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+  }
+  body{
+    margin-left: 7%;
+  }
+  .nav {
+    background-color: black;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%; 
+    max-width: 500px;
+    margin: 15px auto; 
+    border-radius: 50px;
+    position: relative;
+    left: -15%;
+  }
+  p{
+    line-height: 23px;
+    padding-right: 30%;
+  }
+  .nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  h1{
+    position: relative;
+    left: 30px;
+    padding-bottom: 20px;
+    font-weight: bolder;
+    text-shadow: 1px 1.5px rgb(56, 55, 55);
+  }
+  #btn1 {
+    background-color: #E75F00;
+    position: absolute; 
+    margin-left: 57%; 
+    margin-top: -58px;
+    border-radius: 50px;
+    width: 100px;
+    height: 40px;
+    border: none;
+  }
+  .coln1{
+    position: relative;
+    left: 30px;
+  }
+  
+  .main {
+    display: flex;
+  }
+  #sname{
+    padding: 7.5px 30px;
+    margin-top: 20px;
+    border-radius: 50px;
+    position: relative;
+    top: 19%;
+  }
+  .column {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  @media (max-width: 600px) {
+   .main {
+      flex-direction: column;
+    }
+  }
+  .button1 a{
+    position: relative;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+  }
+  .button-container {
+    display: flex;
+    margin-left: 10px;
+  }
+
+  .button1{
+    margin-right: 10px; 
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #F4876B;
+    border: none;
+    border-radius: 4px;
+    color: #FFFFFF;
+  }
+  .icons{
+    margin-left: 15px;
+  }
+  .icons ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .icons li {
+    display: inline-block; 
+  }
+  .fa-solid{
+    padding-left: 15px;
+    text-shadow: 0.5px 0.5px rgb(218, 212, 202);
+  }
+  .fa-microphone-lines{
+    color: goldenrod;
+  }
+  .fa-briefcase{
+    color: #E75F00;
+  }
+  .fa-lightbulb{
+    color: #7049C3;
+  }
+  .info{
+    margin-left: 70px;
+    margin-top: 30px;
+  }
+  h3{
+    font-size: large;
+    color: #eb8b46;
+  }
+  h5{
+    font-size: 16px;
+
+  }
+  h4{
+    color: #eb8b46;
+    padding-top: 15px;
+    font-size: large;
+  }
+  .btn{
+    border: 1px solid black;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    margin-right: 20px;
+    margin-top: 15px;
+  }
+  .white{
+    background-color: #FFFFFF;
+  }
+  .purple{
+    background-color: #7049C3;
+  }
+  .blue{
+    background-color: #0A2B9F;
+  }
+  .red{
+    background-color: #B54242;
+  }
+  .circle{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 1px solid black;
+    position: relative;
+    top: 45%;
+  
+    }
+  .circle__item1{
+    position: relative;
+    right: -36%;
+    bottom: 10%;
+  }
+  .circle__item2{
+    position: relative;
+    left: 90%;
+    bottom: -15%;
+  }
+  .circle__item3{
+    position: relative;
+    bottom: 2%;
+    left:-10% ;
+  }
+  .circle__item4{
+    position: relative;
+    bottom: -25%;
+    left:70% ;
+  }
+  .circle__item5{
+    position: relative;
+    bottom: -9.5%;
+    left: 35px;
+    
+  }
+  .circle img{
+    object-fit: cover;
+    height: 50px;
+    width: 50px;
+  }
+  .pic{
+    position: relative;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 400px;
+    margin-left: 20px;
+    top: 20px;
+    
+  }
+  .box{
+    width: 180px;
+    height: 180px;
+    margin: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  .pic img{
+    height: 180px;
+    width: 180px;
+    object-fit: cover;
+  }
+  #box2{
+    border-radius: 200px 0px;
+  }
+  #box3{
+    border-radius: 200px 0px;
+  }
+ span{
+  color: orange;
+ }
+ #btn2{
+  padding: 10px 18px;
+  border-radius: 5px;
+  border: 1px solid white;
+  background-color: rgba(195, 190, 190, 0.73);
+  font-size: 16px;
+  font-weight: bold;
+
+ }
+ .button1{
+  border: none;
+ }
+ .button-container{
+  padding-left: 20px ;
+  padding-bottom: 30px;
+ }
+ .col2{
+  position: relative;
+  top: 16.5%;
+ }
