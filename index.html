@@ -10,7 +10,34 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet"> 
 </head>
 <body class="initial" id="body">
-
+  <div class="modal-box" id="modalbox">
+    <div class="modal">
+        <div id="close-btn">&times;</div>
+        <div class="button-box">
+            <div id="btn"></div>
+            <button type="button" class="log" onclick="login()">Log-in</button>
+            <button type="button" class="log" onclick="register()">Register</button>
+        </div>
+        <div class="social-icons">
+            <img src="facebook.png" alt="facebook">
+            <img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/twitter-512.png" alt="twitter">
+            <img src="google.png" alt="google">
+        </div>
+        <form id="login" class="input-group">
+            <input type="text" class="input-field" placeholder="User Id" required>
+            <input type="password" class="input-field" placeholder="Enter password" required>
+            <input type="checkbox" class="check-box"><span class="terms">Remember Password</span> 
+            <button type="submit" id="submit-btn">Log-in</button>
+        </form>
+        <form id="register" class="input-group">
+            <input type="text" class="input-field" placeholder="User Id" required>
+            <input type="email" class="input-field" placeholder="Email Id" required>
+            <input type="password" class="input-field" placeholder="Enter password" required>
+            <input type="checkbox" class="check-box"><span class="terms">I agree to the terms and conditions</span> 
+            <button type="submit" id="submit-btn">Register</button>
+        </form>
+    </div>
+</div>
 <div class="nav" id="nav">
   <a href="#">Home</a>
   <a href="#">Projects</a>
@@ -60,25 +87,26 @@
   <div class="column"><p class="txt1 col2">Dive into the realm where lines of code weave dreams into reality and innovation knows no bounds, Welcome to Hackerspace, your launchpad to explore, create and collaborate in the world of coding like never before.</p>
     <input type="text" class="txt2" id="sname" name="sname" placeholder="search">
 <div class="circle" id="circle">
-  <div class="circle__item1">
+  <div class="circle__item" id="item1">
     <img src="icon3.png">
   </div>
-  <div class="circle__item2">
+  <div class="circle__item" id="item2">
     <img src="icon1.png">
   </div>
-  <div class="circle__item3">
+  <div class="circle__item" id="item3">
     <img src="icon5.png">
   </div>
-  <div class="circle__item4">
+  <div class="circle__item" id="item4">
     <img src="icon2.png">
   </div>
-  <div class="circle__item5">
+  <div class="circle__item" id="item5">
     <img src="icon4.png">
   </div>
 </div>
 </div>
 </div>
 <script src="script.js"></script>
+<script src="modalbox.js"></script>
 </body>
 </html>
 

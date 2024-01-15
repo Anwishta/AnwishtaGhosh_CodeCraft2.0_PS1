@@ -23,6 +23,3 @@ function changeColor(bgcolor, navcolor,textcolor1, textcolor2,btncolor1,btncolor
   }
     }
     
-    
-  
-    
